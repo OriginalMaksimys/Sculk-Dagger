@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="sculk_dagger"
+version="1.0"
+displayName="Sculk Dagger"
+displayURL="https://legacy.curseforge.com/minecraft/mc-mods/sculk-dagger"
+logoFile="logo.png"
+credits="Made by Maksimys"
+authors="Maksimys_"
+description="Sculk Dagger"
+displayTest="IGNORE_SERVER_VERSION"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.sculk_dagger]]
+    modId="neoforge"
+    type="required"
+    versionRange="[20.4.223,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.sculk_dagger]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "sculk_dagger:item/sculk_dagger"
+  }
+}
